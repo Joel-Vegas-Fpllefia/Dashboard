@@ -38,17 +38,20 @@ body{
 }
 
 .Products{
+    cursor: pointer;
     width: 240px;
     height: 50px;
 
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-top: 10px;
+    gap: 16px;
     list-style: none;
     margin-left: 20px;
 }
 #Dashboard-Icon{
+    width: 192px;
+    height: 50px;
+
     background-color: #4880FF;
     color:#FFFFFF ;
     border-radius: 6px;
@@ -57,5 +60,28 @@ body{
     width: 22px;
     height: 25px;
     margin-left: 20px;
+}
+ul{
+    padding: 0px;
+}
 
+nav > h2{
+    width: 41px;
+    height: 16px;
+
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0.26px;
+    opacity: 60%;
+    color:  #202224;
+
+    margin-top: 16px;
+    margin-left: 40px;
+}
+
+#menu-lateral > hr{
+    width: 240px;
+    height: 1px;
+    color: #E0E0E0;
 }
