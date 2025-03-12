@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F6FA;
+}
+
+#Contenido{
+    width: 1440px;
+    height: 1070px;
+    background-color: #FFFFFF;
+
+    position: relative;
+}
+#menu-lateral{
+    position: absolute;
+    width: 240px;
+    height: 1070px;
+}
+
+#logo{
+    width: 129px;
+    height: 27px;
+    margin-top: 24px;
+    margin-left: 66px;
+
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+#logo > span{
+    color: #4880FF;
+}
+
+.Products{
+    width: 240px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    list-style: none;
+    margin-left: 20px;
+}
+#Dashboard-Icon{
+    background-color: #4880FF;
+    color:#FFFFFF ;
+    border-radius: 6px;
+}
+.Products > img{
+    width: 22px;
+    height: 25px;
+    margin-left: 20px;
+
+}
