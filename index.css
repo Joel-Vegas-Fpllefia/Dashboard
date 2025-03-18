@@ -236,4 +236,44 @@ nav > h2{
     width: 1202px;
     height: 1070px;
     background-color:#F5F6FA ;
+
+    position: absolute;
+
+}
+#web > h1{
+    width: 161px;
+    height: 44px;
+
+    margin-top: 30px;
+    margin-left: 30px;
+
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.11px;
+
+    color: #202224;
+}
+#utlimaHora{
+    display: flex;
+    gap: 30px;
+    margin-top: 27px;
+}
+.noticia{
+    width: 262px;
+    height: 161px;
+
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 54 #0000000D;
+    margin-left: 30px;
+    position: relative;
+}
+
+.contenidoNoticia > img{
+    position: absolute;
+    width: 60;
+    height: 60;
+    left: 170px;
+    top: 16px;
 }
