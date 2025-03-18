@@ -85,3 +85,154 @@ nav > h2{
     height: 1px;
     color: #E0E0E0;
 }
+#contenido-web{
+    position: absolute;
+    left: 239px;
+
+    width: 1202px;
+    height: 1070px;
+}
+#menu-superior{
+    width: 1201px;
+    height: 70px;
+}
+#menu-superior > nav{
+    display: flex;
+}
+
+#desplegable{
+    width: 24px;
+    height: 24px;
+
+    margin-top: 23px;
+    margin-left: 30px;
+    opacity: 89.8%;
+    color: #202224;
+}
+#menu-superior > nav > button{
+    width: 388px;
+    height: 38px;
+    margin-top: 16px;
+    margin-left: 24px;
+    border: 0.6px solid #D5D5D5;
+    border-radius: 19px;
+
+    display: flex;
+}
+
+#menu-superior > nav > button > img{
+    width: 16px;
+    height: 16px;
+
+    margin-left: 16px;
+    margin-top: 10px;
+    opacity: 50%;
+}
+#menu-superior > nav > button > input{
+    width: 43px;
+    height: 19px;
+    
+    margin-top: 10px;
+    margin-left: 13px;
+
+    border: 0px solid;
+    background-color: transparent;
+
+    opacity: 50%;
+    color: #202224;
+
+    font-weight: 400;
+    font-size: 13px;
+}
+
+#notificaciones{
+    width: 29px;
+    height: 31px;
+
+    margin-top: 19px;
+    margin-left: 330px;
+}
+#idioma{
+    width: 40px;
+    height: 27px;
+
+    margin-top: 22px;
+    margin-left: 26px;
+}
+#menu-superior > nav > select{
+    width: 68px;
+
+    border: 0px solid;
+    margin-left: 16px;
+    display: flex;
+    gap: 10px;
+   
+
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 100%;
+    color: #646464;
+}
+
+#fotoPerfil{
+    width: 44px;
+    height: 44px;
+}
+
+#informacionUsuario{
+    width: 169px;
+    height: 44px;
+
+    margin-top: 13px;
+    margin-left: 26px;
+
+    display: flex;
+}
+#informacionUsuario > div{
+    margin-left: 20px;
+}
+
+#nombreUsuario{
+    width: 61px;
+    height: 18px;
+
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 100%;
+    color: #404040;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+#tipoPerfil{
+    width: 37px;
+    height: 16px;
+
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 100%;
+    color: #565656;
+    margin-top: 3px;
+}
+
+#flecha{
+    width: 18px;
+    height: 18px;
+
+    margin-top: 10px;
+    margin-left: 26px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 0.2px solid #5C5C5C;
+    border-radius: 100%;
+    background-color: transparent;
+}
+
+#web{
+    width: 1202px;
+    height: 1070px;
+    background-color:#F5F6FA ;
+}
