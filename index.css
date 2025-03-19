@@ -277,3 +277,78 @@ nav > h2{
     left: 170px;
     top: 16px;
 }
+
+.tipoNoticia{
+    width: 100px;
+    height: 22px;
+
+    margin-top: 16px;
+    margin-left: 16px;
+
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    opacity: 70%;
+    color: #202224;
+}
+
+.cantidadUsuarios{
+    width: 114px;
+    height: 38px;
+
+    margin-top: 16px;
+    margin-left: 16px;
+
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: #202224;
+}
+
+.mercado{
+    width: 231px;
+    height: 24px;
+
+    margin-top: 29px;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.mercado > img{
+    width: 24px;
+    height: 24px;
+    margin: 0px;
+}
+.mercado > p{
+    width: 199px;
+    height: 22px;
+
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    
+    display: flex;
+    align-items: center;
+}
+
+#grafico {
+    width: 100%; 
+    max-width: 1268px; 
+    height: 444px; 
+    
+    background-image: url(img/GraficoPrincipal.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#tabla{
+    width: 100%; 
+    max-width: 1268px;
+    height: 420px; 
+    
+    background-image: url(img/Deals\ Details.svg);
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
