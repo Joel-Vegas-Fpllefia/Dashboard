@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
-    font-family: "Nunito Sans", sans-serif;;
+    font-family: "Nunito Sans", sans-serif;
+    
 }
 body{
     display: flex;
@@ -334,21 +335,98 @@ nav > h2{
     align-items: center;
 }
 
-#grafico {
-    width: 100%; 
-    max-width: 1268px; 
+.grafico {
+    width: 1170px; 
     height: 444px; 
-    
-    background-image: url(img/GraficoPrincipal.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    margin-left: -19px;
 }
 #tabla{
-    width: 100%; 
-    max-width: 1268px;
-    height: 420px; 
+    width: 1270px;
+    height: 267px;
+    overflow: hidden;
+}
+
+
+#Dashboard2{
+    margin-bottom: -23px;
+}
+
+.targeta_2{
+    width:360px;
+    height:365px;
     
-    background-image: url(img/Deals\ Details.svg);
-    background-size: contain; 
-    background-repeat: no-repeat;
+    margin-top: 120px;
+    margin-left: 30px;
+
+    border-radius: 17px;
+    background-color: #FFFFFF;
+}
+
+#Customer > p{
+    width: 109px;
+    height: 20px;
+
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 0px;
+
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 20px;
+    color: #202224;
+} 
+#Customer > img{
+    width: 148px;
+    height: 148px;
+
+    margin-left: 107px;
+    margin-top: 37px;
+}
+
+#Customer > div{
+    display: flex;
+    margin-top: 38px;
+    margin-left: 41px;
+    gap: 50px;
+}
+
+#Customer > div > div{
+    width: 136px;
+    height: 66px;
+}
+#Customer > div > div > p{
+    width: 96px;
+    height: 38px;
+    margin-left: 12px;
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    color: #202224;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#Customer > div > div > div{
+    display: flex;
+    gap: 8px;
+    margin-top: 0px;
+}
+
+#Customer > div > div > div > p{
+    width: 116px;
+    height: 20px;
+
+    font-weight: 6'';
+    font-size: 15px;
+    line-height: 20px;
+    color: #202224;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#Customer > div > div > div > img{
+    margin-top: 0px;
+}
+#targetas_2{
+    display: flex;
 }
