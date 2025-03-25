@@ -430,3 +430,62 @@ nav > h2{
 #targetas_2{
     display: flex;
 }
+#targeta2 > div{
+    text-align: center;
+}
+#targeta2 > p{
+    width: 176px;
+    height: 20px;
+
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 0px;
+
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 20px;
+    color: #202224;
+}
+#flechas > img{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+#flechas{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 118px;
+
+    margin-bottom: 89px;
+}
+#targeta2Titulo{
+    width: 198px;
+    height: 20px;
+    margin-top: 0px;
+
+    font-weight:700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #282D32;
+    margin: 0 auto;
+}
+#precio{
+    width: 53px;
+    height: 20px;
+
+    opacity: 70%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4880FF;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+#targeta3{
+    position: relative;
+}
+#targeta3 > img {
+    position: absolute;
+    top: -48px;
+    left: -48px;
+}
