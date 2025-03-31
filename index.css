@@ -2,6 +2,7 @@
     box-sizing: border-box;
     font-family: "Nunito Sans", sans-serif;
     
+    
 }
 body{
     display: flex;
@@ -16,6 +17,7 @@ body{
     background-color: #FFFFFF;
 
     position: relative;
+    overflow: hidden;
 }
 #menu-lateral{
     position: absolute;
@@ -239,6 +241,7 @@ nav > h2{
     background-color:#F5F6FA ;
 
     position: absolute;
+    overflow:hidden;
 
 }
 #web > h1{
@@ -510,6 +513,7 @@ nav > h2{
     border-radius: 14px;
     box-shadow:6px 6px 54 #000000 5% ;
     background-color: #FFFFFF;
+    overflow: hidden;
 }
 
 .ProductoReloj{
@@ -586,5 +590,40 @@ nav > h2{
 }
 
 .like{
+    cursor: pointer;
+}
+
+#contenido-favorites{
+    width: 1141px;
+    height: 1024px;
+
+    margin-top: 23px;
+    margin-left: 31px;
+
+    gap: 30px;
+
+}
+#contenido-favorites > div{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.FavoriteReloj{
+    width: 361px;
+    height: 317px;
+
+    background-image: url(img/Dashboard_4/reloj.svg);
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FavoriteReloj > img{
+    width: 41px;
+    height: 41px;
+    margin-left: 14px;
+    margin-right: 14px;
     cursor: pointer;
 }
