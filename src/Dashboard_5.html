@@ -3,11 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-
+    <title>Favorites</title>
 
     <link rel="stylesheet" href="../index.css">
 </head>
@@ -17,28 +13,29 @@
             <h1 id="logo"><span>Dash</span>Stack</h1>
             <nav>
                 <ul>
-                    <li class="Products" id="Dashboard-Icon">
-                        <a href="#">
-                            <img src="../img/icons/Dashboard.svg" alt="icono opcion Dashboard">
-                            <p>Dashboard</p>
+                    <li class="Products">
+                        <a href="../index.html">
+                            <img src="../img/Dashboard_3/Dashboard.svg" alt="icono opcion Dashboard">
+                            <p>Inbox</p>
                         </a>
                     </li>
+                    
                     <li class="Products">
-                        <a href="Dashboard_3.html">
+                        <a href="">
                             <img src="../img/icons/Products.svg" alt="icono opcion Product">
                             <p>Products</p>
                         </a>
                     </li>
                    
                     <li class="Products">
-                        <a href="Dashboard_4.html">
-                            <img src="../img//icons/Favorites.svg" alt="icono opcion Favorites">
+                        <a href="">
+                            <img src="../img/icons/Favorites.svg" alt="icono opcion Favorites">
                             <p>Favorites</p>
                         </a>
                     </li>
-                    <li class="Products">
+                    <li class="Products"  id="Dashboard-Icon">
                         <a href="">
-                            <img src="../img//icons/Inbox.svg" alt="icono opcion Inbox">
+                            <img src="../img/Dashboard_5/InboxLogo.svg" alt="icono opcion Inbox">
                             <p>Inbox</p>
                         </a>
                     </li>
@@ -126,7 +123,6 @@
                 </ul>
             </nav>
         </div>
-
         <div id="contenido-web">   
             <div id="menu-superior">
                 <nav>
@@ -156,50 +152,82 @@
                 </nav>
             </div>
             <div id="web">
-                <h1 id="Dashboard2">Dashboard</h1>
-                <div class="grafico">
-                    <img src="../img/Grafico_2.svg" alt="">
-                </div>
-                <div id="targetas_2">
-                    <div class="targeta_2" id="Customer">
-                        <p>Customer</p>
-                        <img src="../img/Dashboard_2/body (1).png" alt="" id="redonda">
-                        <div>
+                <h1>Inbox</h1>
 
-                            <div>
-                                <p>34,249</p>
-                                <div>
-                                    <img src="../img/Dashboard_2/Oval.svg" alt="">
-                                    <p>New Customers</p>
-                                </div>
-                            </div>
+                <div id="contenido-inbox">
+                    <div id="email">
+                        <button type="submit"> + Compose </button>
+                        <nav>
+                            <h1>My Email</h1>
 
-                            <div>
-                                <p>31420</p>
-                                <div>
-                                    <img src="../img/Dashboard_2/Oval (1).svg" alt="">
-                                    <p>Repeated</p>
-                                </div>
-                            </div>
-                        </div>
+                            <li id="emailselect">
+                                <a href="">
+                                    <img src="../img/Dashboard_5/InboxMenu.svg" alt="">
+                                    <p>Inbox</p>
+                                    <p class="numeroRecibidos">1253</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">
+                                    <img src="../img/Dashboard_5/Starred.svg" alt="">
+                                    <p>Starred</p>
+                                    <p class="numeroRecibidos">245</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">
+                                    <img src="../img/Dashboard_5/Sent.svg" alt="">
+                                    <p>Sent</p>
+                                    <p class="numeroRecibidos">245</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">
+                                    <img src="../img/Dashboard_5/Draft.svg" alt="">
+                                    <p>Draft</p>
+                                    <p class="numeroRecibidos">09</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">
+                                    <img src="../img/Dashboard_5/Spam.svg" alt="">
+                                    <p>Spam</p>
+                                    <p class="numeroRecibidos">14</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">
+                                    <img src="../img/Dashboard_5/Important.svg" alt="">
+                                    <p>Important</p>
+                                    <p class="numeroRecibidos">18</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/Dashboard_5/bin.svg" alt="">
+                                    <p>Bin</p>
+                                    <p class="numeroRecibidos">9</p>
+                                </a>
+                            </li>
+
+                        </nav>
                     </div>
-                    <div class="targeta_2" id="targeta2">
-                        <p>Featured Product</p>
-                        <div id="flechas">
-                            <img src="../img/Dashboard_2/Left.svg" alt="">
-                            <img src="../img/Dashboard_2/Right arrow.svg" alt="">    
-                        </div>    
-                        <div >
-                            <p id="targeta2Titulo">Beats Headphone 2019</p>
-                            <p id="precio">$89.00</p>
-                        </div>
-                    </div>
-                    <div class="targeta_2" id="targeta3">
-                        <img src="../img/Dashboard_2/Featured Product.svg" alt="">
-                    </div>
+                    
+                    <div id="correos"> </div>
+
                 </div>
+
             </div>
         </div>
+
+        
+
+
     </div>
 </body>
 </html>

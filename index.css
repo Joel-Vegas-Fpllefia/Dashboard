@@ -642,3 +642,105 @@ nav > h2{
     margin-right: 14px;
     cursor: pointer;
 }
+
+#contenido-inbox{
+    width: 1141px;
+    height: 1024px;
+}
+#email{
+    position: absolute;
+
+    width: 286px;
+    height: 840px;
+    margin-left: 30px;
+
+    border: 0.3px solid transparent;
+    border-radius: 14px;
+
+    background-color: white;
+}
+#correos{
+    position: absolute;
+
+    width: 834px;
+    height: 840px;
+
+    margin-left: 337px;
+    background-color: white;
+
+    border: 0.3px solid transparent;
+    border-radius: 14px;
+}
+#email > button{
+    width: 238px;
+    height: 43px;
+
+    margin-top: 24px;
+    margin-left: 25px;
+
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: #4880FF;
+    opacity: 90%;
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing:-0.05px ;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#email > nav{
+    width: 238px;
+    height: 339px;
+
+    margin-top: 24px;
+    margin-left: 25px;
+}
+#email > nav > h1{
+    width: 69px;
+    height: 22px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.06px;
+
+    color: #202224;
+
+    margin-bottom: 16px;
+}
+#email > nav > li{
+    width: 238px;
+    height: 43px;
+    list-style: none;
+}
+#email > nav > li > a > img{
+    width: 20px;
+    height: 20px;
+
+    margin-left: 16.61px;
+    margin-right: 12px;
+}
+#email > nav > li > a{
+    width: 238px;
+    height: 43px;
+
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   color: #202224;
+} 
+#emailselect{
+    border-radius: 4px;
+    background-color: #487fff2d ;
+}
+
+#emailselect > a > p{
+    color: #3672ff;
+}
+
+.numeroRecibidos{
+    margin-left: 107px;
+}
